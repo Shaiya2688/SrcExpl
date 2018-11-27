@@ -837,7 +837,7 @@ function! <SID>SrcExpl_AdaptPlugins()
     " Traversal the list of other plugins
     for item in g:SrcExpl_pluginList
         " If they acted as a split window
-        if bufname("%") ==# item
+        if bufname("%") =~# item
             " Just avoid this operation
             return -1
         endif

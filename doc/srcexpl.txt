@@ -122,7 +122,7 @@ g:SrcExpl_pluginList					*g:SrcExpl_pluginList*
 	" Example
 	let g:SrcExpl_pluginList = [
 		\ "__Tag_List__",
-		\ "_NERD_tree_",
+		\ ".*NERD_tree_.*",
 		\ "Source_Explorer",
 		\ "*unite*"
 	    \ ]
